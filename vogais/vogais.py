@@ -2,7 +2,8 @@
 # em uma string (sequência de caracteres) digitada pelo usuário.
 #
 
-def cacavogais():
+def cacavogais(): # A def é utilizada para agrupar um conjunto de instruções em um bloco, permitindo que esse bloco seja executado quantas vezes forem necessárias
+
     #Variáveis:
 
 # i: um contador que itera sobre cada caractere da string.
@@ -11,13 +12,11 @@ def cacavogais():
 
     i = 0
     j = 0
-
-    
     string = str (input("Digite alguma coisa: "))
+
+
 #A função pede ao usuário que digite uma string
 #  com input("Digite alguma coisa: ").
-
-
 
     for i in string:
         if (i == 'A' or i == 'a'
@@ -25,7 +24,10 @@ def cacavogais():
         or i == 'I' or i == 'i'
         or i == 'O' or i == 'o'
         or i == 'U' or i == 'u'):
-             j+=1
+             j+=1 # contador de vogais
+
     print("vogais: ", j)
+
 #Em resumo, a função cacavogais() conta o número de vogais em uma string digitada pelo usuário e imprime o resultado.
+
 cacavogais()
