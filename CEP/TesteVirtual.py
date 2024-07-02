@@ -11,6 +11,7 @@ import requests
 import json
 
 
+
 # Estrutura do dicionário com nome e CEP de cada integrante..
 squad = [
     {"nome": "", "cep": ""},
