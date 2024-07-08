@@ -7,4 +7,7 @@ print("Idade igual")
 print(df[df['idade'] == 46])
 
 print("Renda maior igual a 10 mil")
-print(df[df['renda'] >= 10000.00])
+print(df[df['renda'] >= 5000.00])
+
+print("Renda maior igual a 10 mil")
+print(df[df['renda'] >= 15000.00])
